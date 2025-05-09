@@ -9,8 +9,8 @@ import java.util.Properties;
 public class EmailUtil {
     private static final String SMTP_HOST = "smtp.gmail.com";
     private static final String SMTP_PORT = "587";
-    private static final String USERNAME = "finviabank@gmail.com"; // Fixed email address
-    private static final String PASSWORD = "ftnc amlk ortf xgxp"; // Replace with your Google App Password
+    private static final String USERNAME = "youremail@gmail.com"; // Fixed email address
+    private static final String PASSWORD = "abc def ghi jkl"; // Replace with your Google App Password
 
     public static void sendLoanApplicationEmail(String recipientEmail, String userName) {
         Properties props = new Properties();
