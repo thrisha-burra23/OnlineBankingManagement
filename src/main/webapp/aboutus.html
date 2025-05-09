@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About Us | FINVIA</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      color: #000; /* Changed text to black */
+      background-color: #fff; /* White background */
+    }
+
+    nav {
+      background-color: #ffffff;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 40px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    nav .logo {
+      font-size: 1.5em;
+      font-weight: bold;
+      color: #2c3e50;
+    }
+    nav a {
+      margin-left: 30px;
+      text-decoration: none;
+      color: #333;
+      font-weight: 500;
+      transition: color 0.3s ease;
+    }
+    nav a:hover {
+      color: #27ae60;
+    }
+
+    header {
+      background: #004080; /* Dark blue for professionalism */
+      color: white;
+      text-align: center;
+      padding: 3rem 1rem;
+      border-radius: 0 0 15px 15px;
+      text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+    }
+
+    main {
+      padding: 2rem 1rem;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    h1, h2, h3 {
+      transition: transform 0.3s ease;
+    }
+
+    h1:hover, h2:hover {
+      transform: scale(1.02);
+      text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+    }
+
+    h2 {
+      color: #004080; /* Dark blue for consistency */
+      margin-top: 2rem;
+    }
+
+    .section {
+      background: #f8f9fa; /* Light grey for subtle contrast */
+      padding: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+      margin-bottom: 2rem;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .section:hover {
+      transform: scale(1.02);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    }
+
+    ul {
+      padding-left: 1.5rem;
+    }
+
+    li {
+      transition: color 0.3s ease;
+    }
+
+    li:hover {
+      color: #004080; /* Dark blue for emphasis */
+    }
+
+    a {
+      color: #004080;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+
+    a:hover {
+      color: #ff8000; /* Orange highlight on hover */
+    }
+
+    .button-link {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 10px 20px;
+      background: #004080;
+      color: white;
+      border-radius: 10px;
+      transition: background 0.3s ease, transform 0.3s ease;
+      text-decoration: none;
+    }
+
+    .button-link:hover {
+      background: #ff8000;
+      transform: scale(1.05);
+    }
+
+    footer {
+      background: #004080;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      border-top: 1px solid #ccc;
+    }
+
+    @media (max-width: 600px) {
+      main {
+        padding: 1rem;
+      }
+
+      h1 {
+        font-size: 1.5rem;
+      }
+
+      h2 {
+        font-size: 1.2rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<nav>
+  <div class="logo">MyBank</div>
+  <div>
+    <a href="aboutus.html">About Us</a>
+    <a href="contactus.html">Contact Us</a>
+    <a href="index.jsp">Login</a>
+  </div>
+</nav>
+
+<header>
+  <h1>About Us – FINVIA Online</h1>
+  <p>Welcome to FINVIA Online – Banking Made Smarter.</p>
+</header>
+
+<main>
+  <div class="section">
+    <h2>Who We Are</h2>
+    <p>At FINVIA, we believe banking should be simple, secure, and accessible anytime, anywhere...</p>
+  </div>
+
+  <div class="section">
+    <h2>🚀 What We Offer – A Complete Digital Banking Experience</h2>
+    <h3>🔹 Personal Account</h3>
+    <ul>
+      <li><strong>Savings Account</strong> – Earn interest monthly.</li>
+      <li><strong>Current Account</strong> – For businesses.</li>
+      <li><strong>Fixed Deposit</strong> – High interest, fixed term.</li>
+    </ul>
+
+    <h3>🔹 Secure Fund Transfers</h3>
+    <p>Use NEFT, RTGS, or IMPS with multi-layer encryption.</p>
+
+    <h3>🔹 Loan Approval</h3>
+    <ul>
+      <li><strong>Personal & Home Loans</strong></li>
+      <li><strong>Eligibility Checker</strong></li>
+      <li><strong>EMI Calculator</strong></li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>🔐 Our Commitment to Security</h2>
+    <p>Strong authentication, encryption, and 24/7 monitoring ensure your data stays protected.</p>
+  </div>
+
+  <div class="section">
+    <h2>💬 Get in Touch</h2>
+    <p>We’re always here to help you.</p>
+    <a href="#" class="button-link">Contact Us</a>
+  </div>
+</main>
+
+<footer>
+  © 2025 FINVIA Online. All rights reserved.
+</footer>
+
+</body>
+</html>

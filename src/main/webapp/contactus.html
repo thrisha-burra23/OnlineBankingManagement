@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Us - MyBank</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f7fa;
+      color: #333;
+    }
+    nav {
+      background-color: #ffffff;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 40px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    nav .logo {
+      font-size: 1.5em;
+      font-weight: bold;
+      color: #2c3e50;
+    }
+    nav a {
+      margin-left: 30px;
+      text-decoration: none;
+      color: #333;
+      font-weight: 500;
+      transition: color 0.3s ease;
+    }
+    nav a:hover {
+      color: #27ae60;
+    }
+    .contact-container {
+      max-width: 1000px;
+      margin: 80px auto;
+      background: #fff;
+      border-radius: 16px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+      padding: 40px;
+    }
+    h1 {
+      text-align: center;
+      color: #1e3a8a;
+    }
+    .contact-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 30px;
+      margin-top: 40px;
+    }
+    .contact-card {
+      background: #eef2ff;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+      transition: transform 0.3s;
+    }
+    .contact-card:hover {
+      transform: translateY(-5px);
+    }
+    .contact-card h2 {
+      color: #1d4ed8;
+      margin-bottom: 10px;
+    }
+    .contact-card p {
+      margin: 10px 0;
+      font-size: 16px;
+    }
+    .icon {
+      font-size: 24px;
+      margin-right: 10px;
+      color: #2563eb;
+    }
+    @media (max-width: 768px) {
+      .contact-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <div class="logo" data-aos="fade-right">MyBank</div>
+  <div>
+    <a href="aboutus.html">About Us</a>
+    <a href="contactus.html">Contact Us</a>
+    <a href="index.jsp">Login</a>
+  </div>
+</nav>
+
+<div style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: -1; overflow: hidden;">
+  <img src="aboutus.jpg" style="width: 100%; height: 100%; object-fit: cover;" alt="Background">
+</div>
+
+<div class="contact-container" data-aos="fade-up">
+  <h1>Contact Us</h1>
+  <div class="contact-grid">
+    <!-- Phone Support -->
+    <div class="contact-card">
+      <h2>📞 Phone Support</h2>
+      <p><strong>Customer Care:</strong> +91 1800 123 4567</p>
+      <p><strong>International:</strong> +91 98765 43210</p>
+      <p><strong>Available:</strong> 24/7 including holidays</p>
+    </div>
+
+    <!-- Email Support -->
+    <div class="contact-card">
+      <h2>📧 Email Support</h2>
+      <p><strong>General Queries:</strong> finviabank@gmail.com</p>
+<!--      <p><strong>Technical Issues:</strong> techhelp@mybank.in</p>-->
+      <p><strong>Response Time:</strong> Within 24 hours</p>
+    </div>
+  </div>
+</div>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 800,
+    once: true
+  });
+</script>
+
+</body>
+</html>
