@@ -97,7 +97,7 @@ These files are related to version control and are not directly part of the appl
    - Package the application as a WAR file and deploy it on a Tomcat server.
 
 4. **Access the Application**:
-   - Open a web browser and navigate to -->http://localhost:8080/<context-path>.
+   - Open a web browser and navigate to -->http://localhost:8080/<context-path>..
 
 ## Contributing
 Contributions are welcome! Please follow these steps:
